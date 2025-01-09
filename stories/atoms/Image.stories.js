@@ -23,6 +23,6 @@ export const WithClass = {
   args: {
     src: 'https://www.themealdb.com//images//category//pasta.png',
     alt: 'Placeholder Image with Class',
-    imgClass: 'img-style', // example class
+    imgClass: 'rounded-lg shadow-lg border-2 border-gray-300', // example class
   },
 };

@@ -21,6 +21,7 @@
 </template>
 
 <script setup>
+
 const props = defineProps({
   food: {
     type: Object,

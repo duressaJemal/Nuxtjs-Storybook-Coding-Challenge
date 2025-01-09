@@ -15,7 +15,5 @@ const props = defineProps({
 });
 
 onMounted(() => {
-  console.log('Category:', props.category);
-  console.log('Description:', props.description);
 });
 </script>

@@ -23,8 +23,8 @@ const props = defineProps({
 const categoriesToShow = ref([]);
 
 onMounted(async () => {
-  if (props.mockCategories) {
-    categoriesToShow.value = props.mockCategories;
+  if (props.mockfoods) {
+    categoriesToShow.value = props.mockfoods;
   } else {
     try {
       const response = await fetch('https://www.themealdb.com/api/json/v1/1/categories.php');
